@@ -2,7 +2,7 @@
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub 
+
 		Square aSquare = Square.construct(10.0);
 		Square wrongSquare = Square.construct(-10); //is null
 		

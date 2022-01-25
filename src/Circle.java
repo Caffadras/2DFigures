@@ -45,6 +45,7 @@ public class Circle extends Figure2D implements Drawable{
 	/**
 	 * "Draws" circle string representation on the console.
 	 */
+	@Override
 	public void draw() {
 		System.out.println(pattern);
 	}
